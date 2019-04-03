@@ -4,7 +4,7 @@ using namespace std;
 
 struct node {
     char namaMhs[20];
-    int Npm;
+    int npm;
     float ip;
     node *next;
  };
@@ -17,9 +17,9 @@ void tambahData()
   node *temp, *temp2; //node sementara
    //isi data
     temp=new node;
-    cout<<"Nama Mahasiswa  : ";cin>>temp->namaMhs;
-    cout<<"NPM Mahasiswa   : ";cin>>temp->Npm;
-    cout<<"IP Mahasiswa : ";cin>>temp->ip;
+    cout<<"Nama Mahasiswa  : ";cin>>temp->namaMhs<<endl;
+    cout<<"NPM Mahasiswa   : ";cin>>temp->npm<endl;
+    cout<<"IP Mahasiswa : ";cin>>temp->ip<endl;
     temp->next=NULL;
     //inisialisasi pointer ketika kosong
     if(awal_ptr==NULL)
