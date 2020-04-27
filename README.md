@@ -1,1 +1,1 @@
-Struktur Data Linked List dengan C++
+Struktur Data Linked List dengan Bahasa Pemrograman C++
